@@ -6,6 +6,7 @@
 // import Counter from "./Components/useReducer/Counter.jsx"
 
 // import { useRef } from "react";
+import UniqueId from "./Components/UseIdHook/UniqueId";
 import FocusInput from "./Components/UseRefHook/FocusInput";
 import Timer from "./Components/UseRefHook/Timer";
 
@@ -36,7 +37,12 @@ function App() {
 
     // <FocusInput/>
     // <Timer />
+    <div>
     
+    <UniqueId />
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, est accusantium! Corporis ut perferendis, nostrum corrupti sit est inventore? Consequatur?
+    <UniqueId />
+    </div>
   );
 }
 
