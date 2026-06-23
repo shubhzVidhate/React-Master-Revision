@@ -1,0 +1,28 @@
+.container{
+    height: 90vh;
+    width: 100%;
+    padding: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.number{
+    padding-top: 20%;
+    font-size: 70px;
+}
+
+.btns-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
