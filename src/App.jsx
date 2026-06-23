@@ -3,7 +3,9 @@
 // import { ContextProvider } from './Components/UseContext/UserContext.jsx'
 // import UserProfile from './Components/UseContext/UserProfile.jsx'
 // import ReducerExample from './Components/useReducer/ReducerExample.jsx'
-import ReducerExample2 from './Components/useReducer/ReducerExample2.jsx'
+// import ReducerExample2 from './Components/useReducer/ReducerExample2.jsx'
+
+import Counter from "./Components/useReducer/Counter.jsx"
 
 function App() {
 
@@ -13,7 +15,8 @@ function App() {
   //     <UpdateUserContext />
   //  </ContextProvider>
   // <ReducerExample />
-  <ReducerExample2 />
+  // <ReducerExample2 />
+    <Counter />
   )
 }
 
