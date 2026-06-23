@@ -16,7 +16,7 @@ const ReducerExample = () => {
                     return { ...state, count: 0 }
                     default:
                         return state;
-                    }
+                    } 
                 }
                 
                 const [state, dispatch] = useReducer(reducer, initialState);
