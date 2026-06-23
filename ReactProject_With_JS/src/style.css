@@ -1,4 +1,63 @@
-.container{
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f9eb;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-todo{
+    background: #fcfff3;
+    padding: 50px;
+}
+
+.input-todo{
+    padding: 15px;
+    border: none;
+    outline: none;
+    background: #f5f9eb;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.button-todo{
+    border-radius: 100px;
+    background: #454545;
+    padding: 5px;
+    outline: none;
+    color: #fff;
+    border: none;
+    padding: 10px ;
+    cursor: pointer;
+}
+
+.todos-list{
+    margin-top: 3rem;
+}
+
+.todo{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f5f9eb;
+    padding: 7px 20px;
+    margin: 10px;
+    font-family: sans-serif;
+}
+
+.close-todo{
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.container-counter{
     height: 90vh;
     width: 100%;
     padding: 0;
@@ -7,18 +66,18 @@
     text-align: center;
 }
 
-.number{
+.number-counter{
     padding-top: 20%;
     font-size: 70px;
 }
 
-.btns-container{
+.btns-container-counter{
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.btn{
+.btn-counter{
     padding: 10px 30px;
     border-radius: 10px;
     background-color: orange;
